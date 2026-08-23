@@ -1,0 +1,19 @@
+# .gitignore
+# Bỏ qua thư mục môi trường ảo
+venv/
+env/
+
+# Bỏ qua file database mặc định của Django
+db.sqlite3
+
+# Bỏ qua các file cache và file biên dịch của Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Bỏ qua file chứa biến môi trường (mật khẩu database, API keys)
+.env
+
+# Bỏ qua thư mục chứa file do người dùng upload
+media/
